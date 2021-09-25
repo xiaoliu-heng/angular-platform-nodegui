@@ -14,6 +14,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "platform-nodegui": [
+        "dist/platform-nodegui/platform-nodegui",
+        "dist/platform-nodegui"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
